@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 199, 131, 0.752);
+}
+.inner-div{
+    width: 50vw; 
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 30px 15px;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+li{
+    list-style: none;
+    padding: 5px;
+    font-size: 25px;
+       
+}
+.answer{
+    width: 15px;
+    height: 15px;
+}
+.li1{
+    margin-top: 10px;
+}
+.inner-div h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    
+}
+input{
+    cursor: pointer;
+}
+/* #submit{
+    width: 5rem;
+    height: 2rem;
+    display: inline-block;
+    margin: auto;
+    margin-left: 400px;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgb(0, 130, 229);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#submit:hover{
+    background-color: rgb(36, 160, 255);
+}   */
+#show-score{
+    background-color: grey;
+    border-radius: 10px;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+.btn{
+    width: 7.5rem;
+    height: 3rem;
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgba(9, 238, 36, 0.867);
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.btn:hover{
+    background-color: rgba(71, 255, 92, 0.867);
+}
+.score-area{
+    display: none;
+}
+#next{
+    
+    display: inline-block;
+    width: 5.5rem;
+    height: 3rem;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+    background-color: rgb(0, 130, 229);
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+#next:hover{
+    background-color: rgb(36, 160, 255);
+}
+
+/* For Responsiveness */
+
+@media only screen and (max-width:700px) {
+    .inner-div{
+        width: 80%;
+    }
+}
